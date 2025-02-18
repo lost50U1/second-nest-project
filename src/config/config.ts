@@ -2,7 +2,7 @@ export default () => ({
   database: {
     connectionString: process.env.DATABASE_CONNECTION_STRING,
   },
-  secrets: {
-    jwtSecret: process.env.JWT_SECRET,
+  jwt: {
+    secret: process.env.JWT_SECRET,
   },
 });
